@@ -12,7 +12,7 @@ order to let you define different installations of `python`.
 
 ## Build Output
 
-```
+```zsh
 ⇒  bazel build //cmd:image
 INFO: Analyzed target //cmd:image (0 packages loaded, 0 targets configured).
 INFO: Found 1 target...
@@ -31,7 +31,7 @@ FAILED: Build did NOT complete successfully
 
 Both `python` and `bazel` themselves are installed with `asdf-vm`.
 
-```
+```zsh
 ⇒  cat .tool-versions
 python 3.8.5 2.7.16
 bazel 3.5.0
