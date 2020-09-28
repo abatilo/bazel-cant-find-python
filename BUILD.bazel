@@ -1,4 +1,4 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/abatilo/go-bazel
+# gazelle:prefix github.com/abatilo/bazel-cant-find-python
 gazelle(name = "gazelle")
